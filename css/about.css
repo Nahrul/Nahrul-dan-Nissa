@@ -1,0 +1,55 @@
+:root{
+    --button: #B95C50;
+    --head: #965a00;
+    --primary: #fedfe3;
+    --secondary: #deb3ad;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body
+{
+    background: var(--secondary);
+}
+
+.logo
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary);
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 1rem;
+    padding: 0.4rem;
+    color: var(--button);
+    z-index: 999;
+}
+
+.firstmeet
+{
+    display: flex;
+    margin: 4rem 0;
+    flex-direction: column;
+}
+
+.firstmeet img.imgfirst
+{
+    max-width: 348px;
+    max-height: 147px;
+    position: relative;
+    right: -20px;
+}
+
+.firstmeet .judul
+{
+    margin: 1rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    color: #fff;
+}
