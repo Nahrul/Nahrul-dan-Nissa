@@ -44,12 +44,45 @@ body
     max-height: 147px;
     position: relative;
     right: -20px;
+    box-shadow: 0px 2px 12px 2px rgba(0, 0, 0, 0.25);
+    z-index: 99;
+}
+.firstmeet .judul::after
+{
+    content: '';
+    position: absolute;
+    background: url('../img/bunga.png');
+/*    background-color: darkred;*/
+    width: 164px;
+    height: 85px;
+/*    z-index: 9999;*/
+    top: 33%;
+    right: 30%;
 }
 
 .firstmeet .judul
 {
-    margin: 1rem;
-    font-size: 1.7rem;
+    margin:0.5rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    font-weight: 700;
     text-transform: uppercase;
+    color: #fff;
+}
+
+.firstmeet .tahun
+{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--button);
+    margin-left: 0.5rem;
+}
+
+.firstmeet p
+{
+    font-size: 0.6rem;
+    font-weight: 400;
+    line-height: 14px;
+    margin-left: 0.5rem;
     color: #fff;
 }
